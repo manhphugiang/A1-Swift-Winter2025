@@ -10,17 +10,16 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
     var stringText: String = ""
-    
+
     @IBOutlet var textView: UITextView!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
+
+    override func viewDidAppear(_: Bool) {
         textView.text = stringText
     }
 }

@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Form-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Form" id="BYZ-38-t0r" customClass="ViewController" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -278,10 +278,10 @@
             </objects>
             <point key="canvasLocation" x="965.64885496183206" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller Two-->
+        <!--text view form-->
         <scene sceneID="Dfc-S2-7Ja">
             <objects>
-                <viewController id="s8f-A2-Oyu" customClass="ViewControllerTwo" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="text view form" id="s8f-A2-Oyu" customClass="ViewControllerTwo" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UTW-Et-CT5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,10 +322,10 @@
             </objects>
             <point key="canvasLocation" x="1901.5267175572519" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller Three-->
+        <!--math question-->
         <scene sceneID="iSF-a0-EPG">
             <objects>
-                <viewController id="HeY-AY-yeY" customClass="ViewControllerThree" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="math question" id="HeY-AY-yeY" customClass="ViewControllerThree" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZGn-Es-h7e">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -381,10 +381,10 @@
             </objects>
             <point key="canvasLocation" x="2893.8931297709923" y="7.746478873239437"/>
         </scene>
-        <!--View Controller Four-->
+        <!--math result and images-->
         <scene sceneID="rpk-w1-30a">
             <objects>
-                <viewController id="JNf-OK-M13" customClass="ViewControllerFour" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="math result and images" id="JNf-OK-M13" customClass="ViewControllerFour" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lQj-9K-H7T">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -410,7 +410,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxQ-c2-wor">
-                                <rect key="frame" x="39" y="749" width="315" height="35"/>
+                                <rect key="frame" x="39" y="749" width="315" height="69"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go To Sheridan College Webiste"/>
                                 <connections>
@@ -422,13 +422,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zll-IB-ulb" firstAttribute="trailing" secondItem="lQj-9K-H7T" secondAttribute="trailingMargin" id="2c5-vL-rnB"/>
-                            <constraint firstItem="Blp-BA-2PV" firstAttribute="bottom" secondItem="LxQ-c2-wor" secondAttribute="bottom" constant="46" id="5Xw-Ps-GmD"/>
+                            <constraint firstItem="Blp-BA-2PV" firstAttribute="bottom" secondItem="LxQ-c2-wor" secondAttribute="bottom" constant="34" id="5Xw-Ps-GmD"/>
                             <constraint firstItem="zll-IB-ulb" firstAttribute="centerX" secondItem="gSf-za-zEa" secondAttribute="centerX" id="6rp-eM-fsq"/>
                             <constraint firstItem="gSf-za-zEa" firstAttribute="centerX" secondItem="QSa-DQ-08a" secondAttribute="centerX" id="FPv-Tn-HFz"/>
                             <constraint firstItem="QSa-DQ-08a" firstAttribute="leading" secondItem="Blp-BA-2PV" secondAttribute="leading" constant="27" id="aUk-Iz-S1r"/>
-                            <constraint firstItem="LxQ-c2-wor" firstAttribute="top" secondItem="QSa-DQ-08a" secondAttribute="bottom" constant="67" id="byN-uF-G6U"/>
+                            <constraint firstItem="LxQ-c2-wor" firstAttribute="top" secondItem="QSa-DQ-08a" secondAttribute="bottom" constant="79" id="byN-uF-G6U"/>
                             <constraint firstItem="QSa-DQ-08a" firstAttribute="top" secondItem="gSf-za-zEa" secondAttribute="bottom" constant="46" id="eBg-R2-PXT"/>
-                            <constraint firstItem="gSf-za-zEa" firstAttribute="leading" secondItem="LxQ-c2-wor" secondAttribute="leading" id="kpp-YG-eGq"/>
+                            <constraint firstItem="gSf-za-zEa" firstAttribute="leading" secondItem="LxQ-c2-wor" secondAttribute="leading" constant="72.333333333333329" id="kpp-YG-eGq"/>
                             <constraint firstItem="gSf-za-zEa" firstAttribute="top" secondItem="zll-IB-ulb" secondAttribute="bottom" constant="91" id="rAD-uU-aDZ"/>
                             <constraint firstItem="zll-IB-ulb" firstAttribute="leading" secondItem="lQj-9K-H7T" secondAttribute="leadingMargin" id="tbf-74-jrM"/>
                             <constraint firstItem="zll-IB-ulb" firstAttribute="top" secondItem="Blp-BA-2PV" secondAttribute="top" constant="60" id="yoA-XE-pQe"/>
@@ -445,10 +445,10 @@
             </objects>
             <point key="canvasLocation" x="3777.8625954198474" y="7.746478873239437"/>
         </scene>
-        <!--View Controller Five-->
+        <!--sheridan college web page-->
         <scene sceneID="DhB-wf-FoF">
             <objects>
-                <viewController id="03D-fC-rTL" customClass="ViewControllerFive" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="sheridan college web page" id="03D-fC-rTL" customClass="ViewControllerFive" customModule="A1_ManhPhuGiang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T5s-wa-jSd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
